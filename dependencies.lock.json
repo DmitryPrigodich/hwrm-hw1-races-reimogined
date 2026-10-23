@@ -1,7 +1,7 @@
 {
   "mp_patch": {
     "repository": "https://github.com/DmitryPrigodich/hwrm-mp-patch",
-    "commit": "a3973a76432b187178fe229a1d4d17d9f15bfab2",
-    "fix_revision": "c29f96a2a3aaf8da2ec73b54f7a9438294dbd5d4232cb86c375c37d8bcc4374d"
+    "commit": "fd3e7c1021eda1eb1f858fafdfc1bdd1a65102af",
+    "fix_revision": "275e371e275917921f780602739f0695824d171c99cf8e2dc789225125e6d1f4"
   }
 }
