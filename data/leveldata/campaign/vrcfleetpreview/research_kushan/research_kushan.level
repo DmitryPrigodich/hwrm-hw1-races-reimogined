@@ -1,0 +1,28 @@
+function DetermChunk()
+addSquadron("NFP_Mother","kus_mothership",{0,0,0},0,{0,0,0},1,0)
+createSOBGroup("NFP_Mother")
+addToSOBGroup("NFP_Mother","NFP_Mother")
+addSquadron("NFP_Show_22","kus_resourcecollector",{4400,350,2200},0,{0,0,0},0,0)
+addSquadron("NFP_Show_23","kus_resourcecontroller",{5050,350,2200},0,{0,0,0},0,0)
+addSquadron("NFP_Show_24","kus_probe",{1800,0,3700},0,{0,0,0},0,0)
+addAsteroid("Asteroid_4",{-1200,-300,-3600},2,0,0,0,0)
+addAsteroid("Asteroid_4",{-800,-300,-3600},2,0,0,0,0)
+addAsteroid("Asteroid_4",{-400,-300,-3600},2,0,0,0,0)
+addAsteroid("Asteroid_4",{0,-300,-3600},2,0,0,0,0)
+addAsteroid("Asteroid_4",{400,-300,-3600},2,0,0,0,0)
+addSquadron("NFP_Target_0","hgn_interceptor",{3000,0,11000},1,{0,180,0},1,0)
+addSquadron("NFP_Target_1","hgn_assaultcorvette",{4100,0,11000},1,{0,180,0},1,0)
+addSquadron("NFP_Target_2","hgn_assaultfrigate",{5200,0,11000},1,{0,180,0},1,0)
+addSquadron("NFP_Target_3","hgn_destroyer",{6300,0,11000},1,{0,180,0},1,0)
+addCamera("NFP_Home",{1800,0,1200},{9000,6500,-10000})
+setWorldBoundsInner({0,0,3000},{20000,12000,22000})
+end
+function NonDetermChunk()
+loadBackground("m01")
+setSensorsManagerCameraDistances(100,70000)
+end
+levelDesc="$9960252"
+maxPlayers=2
+player={}
+player[0]={id=0,name="",resources=20000,raceName="Kushan",startPos=0}
+player[1]={id=1,name="",resources=0,raceName="Hiigaran",startPos=0}

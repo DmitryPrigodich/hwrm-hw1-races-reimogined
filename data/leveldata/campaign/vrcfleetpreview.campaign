@@ -1,0 +1,15 @@
+displayName="$9960066"
+contentType=2
+contentName="VRCFleetPreview"
+contentOrdered=0
+contentChooseText="$9960067"
+contentThumbName="$9960066"
+contentThumbDesc="$9960066"
+contentSort=0.3
+contentRules="SinglePlayer"
+ExtFilter="campaign_vast_reaches,campaign_gbx"
+Mission={}
+Mission[1]={postload=function() end,directory="Preview_Kushan",level="Preview_Kushan.level",postlevel=function() end,displayName="$9960034",description="$9960035"}
+Mission[2]={postload=function() end,directory="Preview_Taiidan",level="Preview_Taiidan.level",postlevel=function() end,displayName="$9960064",description="$9960065"}
+
+Mission[3]={postload=function() end,directory="Research_Kushan",level="Research_Kushan.level",postlevel=function() end,displayName="$9960252",description="$9960253"}

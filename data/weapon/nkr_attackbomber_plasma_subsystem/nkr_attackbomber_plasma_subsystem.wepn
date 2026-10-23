@@ -1,0 +1,31 @@
+StartWeaponConfig(NewWeaponType,"AnimatedTurret","Bullet","Improved_Plasma_Bomb","Special Attack",1200,2000,0,0,0,0,1,1,1,2.1,0,0,1,0,260,40,0.1,"Normal",0,0,0);
+AddWeaponResult(NewWeaponType,"Hit","DamageHealth","Target",190.844,192.533,"");
+setPenetration(NewWeaponType,5,1,
+{Unarmoured=1.0},
+{Unarmoured_hw1=1.0},
+{LightArmour=1.0},
+{LightArmour_hw1=1.15},
+{ResArmour=0.2},
+{PlanetKillerArmour=0},
+{SwarmerArmor=0.10},
+{SpaceMineArmor=1},
+{TorpedoArmor=0},
+{HeavyMissileArmor=0},
+{SmallMissileArmor=0},
+{SubSystemArmour=2.5},
+{TurretArmour=0.70},
+{MediumArmour=1.40},
+{HeavyArmour=1.10});
+setAccuracy(NewWeaponType,0,{SubSystem=1});
+setAngles(NewWeaponType,0,-15,15,-15,15);
+setFrustratedTimers(NewWeaponType, 0.0, 10.0);
+setMiscValues(NewWeaponType,0,0);
+setMissProperties(NewWeaponType, 0.02, 0.04, 0.20, 0.30, 0.50, 0.50);
+setSpeedvsAccuracyAgainst(NewWeaponType, 1, 50.0, 1.5, 75, 1.0, 300, 1.0, 487, 0.90, 535, 0.60);
+setLifetimeMult(NewWeaponType, 1.75);
+setDamageFalloff(NewWeaponType, 0.25/2000.0, 0.1);
+setAccuracyFalloff(NewWeaponType, 0.25/2000.0, 0.1);
+setBallistics(NewWeaponType,0,0.0);
+setFireMultFactor(NewWeaponType, 1.0);
+setRangeBoost(NewWeaponType, 1.0);
+setRangeByStance(NewWeaponType, 1.0, 1.0, 1.0);

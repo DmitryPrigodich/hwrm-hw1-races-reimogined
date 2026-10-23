@@ -1,0 +1,1 @@
+PersistantData={["Squadrons"]={[1]={["type"]="Kus_MotherShip",["name"]="",["subsystems"]={},["shiphold"]={},["size"]=1},[2]={["number"]=6,["type"]="Kus_ResourceCollector",["name"]="",["subsystems"]={},["shiphold"]={},["size"]=1},[3]={["number"]=1,["type"]="Kus_Carrier",["name"]="",["subsystems"]={},["shiphold"]={},["size"]=1}},["StrikeGroups"]={},["Research"]={}}

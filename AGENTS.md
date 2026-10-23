@@ -1,0 +1,3 @@
+# hwrm-hw1-races-reimogined
+
+Own Novokushan/Novotaiidan design, research, construction and balance here. Read docs/epics and design/ before changes. The data/ overlay is the current authoritative build input; tools/legacy preserves historical coupled generators, not the active pipeline. Base fixes belong upstream in hwrm-mp-patch. Preserve approved hull IDs, destroyer tuning, squads and research decisions. No campaign story/audio here; VRCFleetPreview is a historical technical ID for independent test maps. Do not install/launch/stop HWRM without human request. Assets are local and hash-pinned in assets.json. Dependency revisions update explicitly.

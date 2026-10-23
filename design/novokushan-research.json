@@ -1,0 +1,1857 @@
+{
+  "version": "NKR-research-v1",
+  "date": "2026-10-21",
+  "modules": [
+    {
+      "id": "naabal",
+      "ru": "Наабал",
+      "en": "Naabal",
+      "branch": "Шасси",
+      "ship": "kus_researchship",
+      "subsystem": "Research",
+      "cap": "Research",
+      "cost": 350,
+      "time": 30
+    },
+    {
+      "id": "manaan",
+      "ru": "Манаан",
+      "en": "Manaan",
+      "branch": "Двигатели",
+      "ship": "kus_researchship_1",
+      "subsystem": "ResearchShip1",
+      "cap": "Research1",
+      "cost": 350,
+      "time": 30
+    },
+    {
+      "id": "soban",
+      "ru": "Собан",
+      "en": "Soban",
+      "branch": "Орудия",
+      "ship": "kus_researchship_2",
+      "subsystem": "ResearchShip2",
+      "cap": "Research2",
+      "cost": 350,
+      "time": 30
+    },
+    {
+      "id": "sjet",
+      "ru": "С’Джет",
+      "en": "S’jet",
+      "branch": "Спецтехнологии",
+      "ship": "kus_researchship_3",
+      "subsystem": "ResearchShip3",
+      "cap": "Research3",
+      "cost": 500,
+      "time": 40
+    },
+    {
+      "id": "somtaaw",
+      "ru": "Сомтаау",
+      "en": "Somtaaw",
+      "branch": "ИИ-системы",
+      "ship": "kus_researchship_4",
+      "subsystem": "ResearchShip4",
+      "cap": "Research4",
+      "cost": 350,
+      "time": 30
+    },
+    {
+      "id": "paktu",
+      "ru": "Пакту",
+      "en": "Paktu",
+      "branch": "Сенсоры",
+      "ship": "kus_researchship_5",
+      "subsystem": "ResearchShip5",
+      "cap": "Research5",
+      "cost": 300,
+      "time": 25
+    }
+  ],
+  "technologies": [
+    {
+      "id": "NKR_FighterChassis",
+      "key": "FighterChassis",
+      "module": "naabal",
+      "ru": "Шасси истребителей",
+      "en": "Fighter Chassis",
+      "cost": 150,
+      "time": 25,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Fighter Chassis"
+    },
+    {
+      "id": "NKR_AdvancedFighterChassis",
+      "key": "AdvancedFighterChassis",
+      "module": "naabal",
+      "ru": "Усовершенствованное шасси истребителей",
+      "en": "Advanced Fighter Chassis",
+      "cost": 350,
+      "time": 35,
+      "requires": [
+        "NKR_FighterChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_scout",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_interceptor",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_attackbomber",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_cloakedfighter",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_defender",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Общий уровень прочности: 115% базовых HP; также открывает продолжение ветки.",
+      "source_en": "Advanced Fighter Chassis"
+    },
+    {
+      "id": "NKR_CorvetteChassis",
+      "key": "CorvetteChassis",
+      "module": "naabal",
+      "ru": "Шасси корветов",
+      "en": "Corvette Chassis",
+      "cost": 500,
+      "time": 50,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Corvette Chassis"
+    },
+    {
+      "id": "NKR_AdvancedCorvetteChassis",
+      "key": "AdvancedCorvetteChassis",
+      "module": "naabal",
+      "ru": "Усовершенствованное шасси корветов",
+      "en": "Advanced Corvette Chassis",
+      "cost": 600,
+      "time": 60,
+      "requires": [
+        "NKR_CorvetteChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_lightcorvette",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_heavycorvette",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_multiguncorvette",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_minelayercorvette",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_repaircorvette",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_salvagecorvette",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Общий уровень прочности: 115% базовых HP; также открывает продолжение ветки.",
+      "source_en": "Advanced Corvette Chassis"
+    },
+    {
+      "id": "NKR_FrigateChassis",
+      "key": "FrigateChassis",
+      "module": "naabal",
+      "ru": "Шасси фрегатов",
+      "en": "Frigate Chassis",
+      "cost": 800,
+      "time": 65,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Frigate Chassis"
+    },
+    {
+      "id": "NKR_AdvancedFrigateChassis",
+      "key": "AdvancedFrigateChassis",
+      "module": "naabal",
+      "ru": "Усовершенствованное шасси фрегатов",
+      "en": "Advanced Frigate Chassis",
+      "cost": 1000,
+      "time": 75,
+      "requires": [
+        "NKR_FrigateChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_supportfrigate",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_assaultfrigate",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_ioncannonfrigate",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_dronefrigate",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "nku_barricadefrigate",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Общий уровень прочности: 115% базовых HP; также открывает продолжение ветки.",
+      "source_en": "Advanced Frigate Chassis"
+    },
+    {
+      "id": "NKR_DestroyerChassis",
+      "key": "DestroyerChassis",
+      "module": "naabal",
+      "ru": "Шасси эсминцев",
+      "en": "Destroyer Chassis",
+      "cost": 1600,
+      "time": 90,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Destroyer Chassis"
+    },
+    {
+      "id": "NKR_AdvancedDestroyerChassis",
+      "key": "AdvancedDestroyerChassis",
+      "module": "naabal",
+      "ru": "Усовершенствованное шасси эсминцев",
+      "en": "Advanced Destroyer Chassis",
+      "cost": 1200,
+      "time": 90,
+      "requires": [
+        "NKR_DestroyerChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_destroyer",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_missiledestroyer",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_carrier",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_heavycruiser",
+          "name": "MAXHEALTH",
+          "value": 1.15,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Общий уровень прочности: 115% базовых HP; также открывает продолжение ветки.",
+      "source_en": "Advanced Destroyer Chassis"
+    },
+    {
+      "id": "NKR_HeavyCorvetteArmor",
+      "key": "HeavyCorvetteArmor",
+      "module": "naabal",
+      "ru": "Броня тяжёлого корвета",
+      "en": "Heavy Corvette Armor",
+      "cost": 500,
+      "time": 40,
+      "requires": [
+        "NKR_AdvancedCorvetteChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_heavycorvette",
+          "name": "MAXHEALTH",
+          "value": 1.3,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 130% базовых HP, тип брони не меняется.",
+      "source_en": "Heavy Corvette Armor"
+    },
+    {
+      "id": "NKR_MultigunCorvetteArmor",
+      "key": "MultigunCorvetteArmor",
+      "module": "naabal",
+      "ru": "Броня многопушечного корвета",
+      "en": "Multigun Corvette Armor",
+      "cost": 500,
+      "time": 40,
+      "requires": [
+        "NKR_AdvancedCorvetteChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_multiguncorvette",
+          "name": "MAXHEALTH",
+          "value": 1.3,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 130% базовых HP, тип брони не меняется.",
+      "source_en": "Multigun Corvette Armor"
+    },
+    {
+      "id": "NKR_AssaultFrigateArmor",
+      "key": "AssaultFrigateArmor",
+      "module": "naabal",
+      "ru": "Броня штурмового фрегата",
+      "en": "Assault Frigate Armor",
+      "cost": 800,
+      "time": 60,
+      "requires": [
+        "NKR_AdvancedFrigateChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_assaultfrigate",
+          "name": "MAXHEALTH",
+          "value": 1.3,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 130% базовых HP, тип брони не меняется.",
+      "source_en": "Assault Frigate Armor"
+    },
+    {
+      "id": "NKR_IonFrigateArmor",
+      "key": "IonFrigateArmor",
+      "module": "naabal",
+      "ru": "Броня ионного фрегата",
+      "en": "Ion Cannon Frigate Armor",
+      "cost": 800,
+      "time": 60,
+      "requires": [
+        "NKR_AdvancedFrigateChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_ioncannonfrigate",
+          "name": "MAXHEALTH",
+          "value": 1.3,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 130% базовых HP, тип брони не меняется.",
+      "source_en": "Ion Cannon Frigate Armor"
+    },
+    {
+      "id": "NKR_LightDestroyerArmor",
+      "key": "LightDestroyerArmor",
+      "module": "naabal",
+      "ru": "Броня лёгкого эсминца",
+      "en": "Light Destroyer Armor",
+      "cost": 1000,
+      "time": 60,
+      "requires": [
+        "NKR_AdvancedDestroyerChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_destroyer",
+          "name": "MAXHEALTH",
+          "value": 1.3,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 130% базовых HP, тип брони не меняется.",
+      "source_en": "Light Destroyer Chassis"
+    },
+    {
+      "id": "NKR_MissileDestroyerArmor",
+      "key": "MissileDestroyerArmor",
+      "module": "naabal",
+      "ru": "Броня лёгкого ракетного эсминца",
+      "en": "Light Missile Destroyer Armor",
+      "cost": 1000,
+      "time": 60,
+      "requires": [
+        "NKR_AdvancedDestroyerChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_missiledestroyer",
+          "name": "MAXHEALTH",
+          "value": 1.3,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 130% базовых HP, тип брони не меняется.",
+      "source_en": "Light Missile Destroyer Chassis"
+    },
+    {
+      "id": "NKR_CarrierArmor",
+      "key": "CarrierArmor",
+      "module": "naabal",
+      "ru": "Броня носителя",
+      "en": "Carrier Armor",
+      "cost": 1000,
+      "time": 60,
+      "requires": [
+        "NKR_AdvancedDestroyerChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_carrier",
+          "name": "MAXHEALTH",
+          "value": 1.3,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 130% базовых HP, тип брони не меняется.",
+      "source_en": "Carrier Chassis"
+    },
+    {
+      "id": "NKR_HeavyDestroyerArmor",
+      "key": "HeavyDestroyerArmor",
+      "module": "naabal",
+      "ru": "Броня тяжёлого эсминца",
+      "en": "Heavy Destroyer Armor",
+      "cost": 1500,
+      "time": 75,
+      "requires": [
+        "NKR_AdvancedDestroyerChassis"
+      ],
+      "effects": [
+        {
+          "target": "kus_heavycruiser",
+          "name": "MAXHEALTH",
+          "value": 1.3,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 130% базовых HP, тип брони не меняется.",
+      "source_en": "Heavy Destroyer Chassis"
+    },
+    {
+      "id": "NKR_FighterDrive",
+      "key": "FighterDrive",
+      "module": "manaan",
+      "ru": "Двигатели истребителей",
+      "en": "Fighter Drive",
+      "cost": 100,
+      "time": 20,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Fighter Drive"
+    },
+    {
+      "id": "NKR_AdvancedFighterDrive",
+      "key": "AdvancedFighterDrive",
+      "module": "manaan",
+      "ru": "Усовершенствованные двигатели истребителей",
+      "en": "Advanced Fighter Drive",
+      "cost": 350,
+      "time": 35,
+      "requires": [
+        "NKR_FighterDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_scout",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_interceptor",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_attackbomber",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_cloakedfighter",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_defender",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Общий уровень скорости: 110% исходной; также открывает продолжение ветки.",
+      "source_en": "Advanced Fighter Drive"
+    },
+    {
+      "id": "NKR_CorvetteDrive",
+      "key": "CorvetteDrive",
+      "module": "manaan",
+      "ru": "Двигатели корветов",
+      "en": "Corvette Drive",
+      "cost": 500,
+      "time": 50,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Corvette Drive"
+    },
+    {
+      "id": "NKR_AdvancedCorvetteDrive",
+      "key": "AdvancedCorvetteDrive",
+      "module": "manaan",
+      "ru": "Усовершенствованные двигатели корветов",
+      "en": "Advanced Corvette Drive",
+      "cost": 500,
+      "time": 50,
+      "requires": [
+        "NKR_CorvetteDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_lightcorvette",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_heavycorvette",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_multiguncorvette",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_minelayercorvette",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_repaircorvette",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_salvagecorvette",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Общий уровень скорости: 110% исходной; также открывает продолжение ветки.",
+      "source_en": "Advanced Corvette Drive"
+    },
+    {
+      "id": "NKR_FrigateDrive",
+      "key": "FrigateDrive",
+      "module": "manaan",
+      "ru": "Двигатели фрегатов",
+      "en": "Frigate Drive",
+      "cost": 1000,
+      "time": 70,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Frigate Drive"
+    },
+    {
+      "id": "NKR_AdvancedFrigateDrive",
+      "key": "AdvancedFrigateDrive",
+      "module": "manaan",
+      "ru": "Усовершенствованные двигатели фрегатов",
+      "en": "Advanced Frigate Drive",
+      "cost": 750,
+      "time": 65,
+      "requires": [
+        "NKR_FrigateDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_supportfrigate",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_assaultfrigate",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_ioncannonfrigate",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_dronefrigate",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "nku_barricadefrigate",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Общий уровень скорости: 110% исходной; также открывает продолжение ветки.",
+      "source_en": "Advanced Frigate Drive"
+    },
+    {
+      "id": "NKR_DestroyerDrive",
+      "key": "DestroyerDrive",
+      "module": "manaan",
+      "ru": "Двигатели эсминцев",
+      "en": "Destroyer Drive",
+      "cost": 1600,
+      "time": 90,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Destroyer Drive"
+    },
+    {
+      "id": "NKR_AdvancedDestroyerDrive",
+      "key": "AdvancedDestroyerDrive",
+      "module": "manaan",
+      "ru": "Усовершенствованные двигатели эсминцев",
+      "en": "Advanced Destroyer Drive",
+      "cost": 1000,
+      "time": 75,
+      "requires": [
+        "NKR_DestroyerDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_destroyer",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_missiledestroyer",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_carrier",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_heavycruiser",
+          "name": "MAXSPEED",
+          "value": 1.1,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Общий уровень скорости: 110% исходной; также открывает продолжение ветки.",
+      "source_en": "Advanced Destroyer Drive"
+    },
+    {
+      "id": "NKR_LightFighterSpeed",
+      "key": "LightFighterSpeed",
+      "module": "manaan",
+      "ru": "Скорость лёгкого истребителя",
+      "en": "Light Fighter Drive",
+      "cost": 300,
+      "time": 30,
+      "requires": [
+        "NKR_AdvancedFighterDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_scout",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "light interceptor drive"
+    },
+    {
+      "id": "NKR_InterceptorSpeed",
+      "key": "InterceptorSpeed",
+      "module": "manaan",
+      "ru": "Скорость перехватчика",
+      "en": "Interceptor Drive",
+      "cost": 300,
+      "time": 30,
+      "requires": [
+        "NKR_AdvancedFighterDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_interceptor",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "heavy interceptor drive"
+    },
+    {
+      "id": "NKR_BomberSpeed",
+      "key": "BomberSpeed",
+      "module": "manaan",
+      "ru": "Скорость штурмового бомбардировщика",
+      "en": "Attack Bomber Drive",
+      "cost": 300,
+      "time": 30,
+      "requires": [
+        "NKR_AdvancedFighterDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_attackbomber",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "Attack Bomber Drive"
+    },
+    {
+      "id": "NKR_LightCorvetteSpeed",
+      "key": "LightCorvetteSpeed",
+      "module": "manaan",
+      "ru": "Скорость лёгкого корвета",
+      "en": "Light Corvette Drive",
+      "cost": 300,
+      "time": 35,
+      "requires": [
+        "NKR_AdvancedCorvetteDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_lightcorvette",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "Light Corvette Drive"
+    },
+    {
+      "id": "NKR_MultigunCorvetteSpeed",
+      "key": "MultigunCorvetteSpeed",
+      "module": "manaan",
+      "ru": "Скорость многопушечного корвета",
+      "en": "Multigun Corvette Drive",
+      "cost": 400,
+      "time": 40,
+      "requires": [
+        "NKR_AdvancedCorvetteDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_multiguncorvette",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "heavy Corvette drive"
+    },
+    {
+      "id": "NKR_SupportFrigateSpeed",
+      "key": "SupportFrigateSpeed",
+      "module": "manaan",
+      "ru": "Скорость фрегата поддержки",
+      "en": "Support Frigate Drive",
+      "cost": 500,
+      "time": 50,
+      "requires": [
+        "NKR_AdvancedFrigateDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_supportfrigate",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "Support Frigate Drive"
+    },
+    {
+      "id": "NKR_AssaultFrigateSpeed",
+      "key": "AssaultFrigateSpeed",
+      "module": "manaan",
+      "ru": "Скорость штурмового фрегата",
+      "en": "Assault Frigate Drive",
+      "cost": 500,
+      "time": 50,
+      "requires": [
+        "NKR_AdvancedFrigateDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_assaultfrigate",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "Assault Frigate Drive"
+    },
+    {
+      "id": "NKR_IonFrigateSpeed",
+      "key": "IonFrigateSpeed",
+      "module": "manaan",
+      "ru": "Скорость ионного фрегата",
+      "en": "Ion Cannon Frigate Drive",
+      "cost": 500,
+      "time": 50,
+      "requires": [
+        "NKR_AdvancedFrigateDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_ioncannonfrigate",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "Ion Cannon Frigate Drive"
+    },
+    {
+      "id": "NKR_LightDestroyerSpeed",
+      "key": "LightDestroyerSpeed",
+      "module": "manaan",
+      "ru": "Скорость лёгкого эсминца",
+      "en": "Light Destroyer Drive",
+      "cost": 750,
+      "time": 60,
+      "requires": [
+        "NKR_AdvancedDestroyerDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_destroyer",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "Light Destroyer Drive"
+    },
+    {
+      "id": "NKR_MissileDestroyerSpeed",
+      "key": "MissileDestroyerSpeed",
+      "module": "manaan",
+      "ru": "Скорость лёгкого ракетного эсминца",
+      "en": "Light Missile Destroyer Drive",
+      "cost": 750,
+      "time": 60,
+      "requires": [
+        "NKR_AdvancedDestroyerDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_missiledestroyer",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "Light Missile Destroyer Drive"
+    },
+    {
+      "id": "NKR_CarrierSpeed",
+      "key": "CarrierSpeed",
+      "module": "manaan",
+      "ru": "Скорость носителя",
+      "en": "Carrier Drive",
+      "cost": 750,
+      "time": 60,
+      "requires": [
+        "NKR_AdvancedDestroyerDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_carrier",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "Carrier Drive"
+    },
+    {
+      "id": "NKR_HeavyDestroyerSpeed",
+      "key": "HeavyDestroyerSpeed",
+      "module": "manaan",
+      "ru": "Скорость тяжёлого эсминца",
+      "en": "Heavy Destroyer Drive",
+      "cost": 1000,
+      "time": 75,
+      "requires": [
+        "NKR_AdvancedDestroyerDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_heavycruiser",
+          "name": "MAXSPEED",
+          "value": 1.25,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Индивидуальный уровень: целевые 125% исходной скорости.",
+      "source_en": "Heavy Destroyer Drive"
+    },
+    {
+      "id": "NKR_LightFighterBurn",
+      "key": "LightFighterBurn",
+      "module": "manaan",
+      "ru": "Ускорение лёгкого истребителя",
+      "en": "Light Fighter Acceleration",
+      "cost": 200,
+      "time": 25,
+      "requires": [
+        "NKR_AdvancedFighterDrive"
+      ],
+      "effects": [
+        {
+          "target": "kus_scout",
+          "name": "ENGINEACCEL",
+          "value": 0.8,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Время разгона ×0.8; максимальная скорость не меняется.",
+      "source_en": "light interceptor burn"
+    },
+    {
+      "id": "NKR_PlasmaWeapons",
+      "key": "PlasmaWeapons",
+      "module": "soban",
+      "ru": "Плазменные орудия",
+      "en": "Plasma Weapons",
+      "cost": 250,
+      "time": 25,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Plasma Weapons"
+    },
+    {
+      "id": "NKR_IonCannons",
+      "key": "IonCannons",
+      "module": "soban",
+      "ru": "Ионные орудия",
+      "en": "Ion Cannons",
+      "cost": 1000,
+      "time": 70,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Ion Cannons"
+    },
+    {
+      "id": "NKR_GuidedMissiles",
+      "key": "GuidedMissiles",
+      "module": "soban",
+      "ru": "Управляемые ракеты",
+      "en": "Guided Missiles",
+      "cost": 750,
+      "time": 60,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Guided Missiles"
+    },
+    {
+      "id": "NKR_Minelaying",
+      "key": "Minelaying",
+      "module": "soban",
+      "ru": "Минные системы",
+      "en": "Minelaying Technology",
+      "cost": 750,
+      "time": 50,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Minelaying Technology"
+    },
+    {
+      "id": "NKR_HeavyGuns",
+      "key": "HeavyGuns",
+      "module": "soban",
+      "ru": "Тяжёлые орудия",
+      "en": "Heavy Guns",
+      "cost": 1200,
+      "time": 75,
+      "requires": [],
+      "effects": [
+        {
+          "target": "kus_destroyer",
+          "name": "WeaponDamage",
+          "value": 1.1,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_heavycruiser",
+          "name": "WeaponDamage",
+          "value": 1.1,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Добровольное усиление пушечного вооружения лёгкого/тяжёлого эсминца на10%; не дополнительное условие тяжёлого эсминца.",
+      "source_en": "Heavy Guns"
+    },
+    {
+      "id": "NKR_SalvageSystems",
+      "key": "SalvageSystems",
+      "module": "soban",
+      "ru": "Системы захвата",
+      "en": "Salvage Systems",
+      "cost": 500,
+      "time": 40,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Salvage Systems"
+    },
+    {
+      "id": "NKR_PlasmaBombs",
+      "key": "PlasmaBombs",
+      "module": "soban",
+      "ru": "Улучшенные плазменные бомбы",
+      "en": "Improved Plasma Bombs",
+      "cost": 1500,
+      "time": 45,
+      "requires": [
+        "NKR_PlasmaWeapons"
+      ],
+      "effects": [
+        {
+          "target": "kus_attackbomber",
+          "name": "UseSpecialWeaponsInNormalAttack",
+          "value": null,
+          "kind": "ability"
+        },
+        {
+          "target": "kus_assaultfrigate",
+          "name": "UseSpecialWeaponsInNormalAttack",
+          "value": null,
+          "kind": "ability"
+        }
+      ],
+      "note": "Открывает улучшенный плазменный боеприпас против подсистем для бомбардировщика и плазменных установок штурмового фрегата. Обычные пушки фрегата не усиливает.",
+      "source_en": "Improved Plasma Bombs"
+    },
+    {
+      "id": "NKR_ProximityDetector",
+      "key": "ProximityDetector",
+      "module": "paktu",
+      "ru": "Стэлс-детектор",
+      "en": "Proximity Detector",
+      "cost": 500,
+      "time": 40,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Proximity Detector"
+    },
+    {
+      "id": "NKR_SensorArray",
+      "key": "SensorArray",
+      "module": "paktu",
+      "ru": "Сенсорная батарея",
+      "en": "Sensor Array",
+      "cost": 600,
+      "time": 50,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Sensor Array"
+    },
+    {
+      "id": "NKR_EnhancedScanning",
+      "key": "EnhancedScanning",
+      "module": "paktu",
+      "ru": "Улучшенное сканирование",
+      "en": "Enhanced Scanning",
+      "cost": 500,
+      "time": 40,
+      "requires": [
+        "NKR_SensorArray"
+      ],
+      "effects": [
+        {
+          "target": "kus_sensorarray",
+          "name": "SensorPing",
+          "value": null,
+          "kind": "ability"
+        },
+        {
+          "target": "kus_sensorarray",
+          "name": "CloakDetection",
+          "value": 4,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Пинг и обнаружение маскировки сенсорной батареей.",
+      "source_en": "Enhanced Scanning"
+    },
+    {
+      "id": "NKR_HyperspaceSensors",
+      "key": "HyperspaceSensors",
+      "module": "paktu",
+      "ru": "Сенсоры гиперпространства",
+      "en": "Hyperspace Sensors",
+      "cost": 400,
+      "time": 40,
+      "requires": [
+        "NKR_SensorArray"
+      ],
+      "effects": [],
+      "note": "Штатная подсистема HyperspaceSensor на сенсорной батарее; работает после исследования.",
+      "source_en": "Hyperspace Sensors"
+    },
+    {
+      "id": "NKR_FastTrackingTurrets",
+      "key": "FastTrackingTurrets",
+      "module": "somtaaw",
+      "ru": "Скоронаводящиеся орудия",
+      "en": "Fast-Tracking Turrets",
+      "cost": 500,
+      "time": 45,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Fast-Tracking Turrets"
+    },
+    {
+      "id": "NKR_DefenderSubsystems",
+      "key": "DefenderSubsystems",
+      "module": "somtaaw",
+      "ru": "Подсистемы Защитника",
+      "en": "Defender Subsystems",
+      "cost": 400,
+      "time": 40,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Defender Subsystems"
+    },
+    {
+      "id": "NKR_DroneTechnology",
+      "key": "DroneTechnology",
+      "module": "somtaaw",
+      "ru": "Беспилотные технологии",
+      "en": "Drone Technology",
+      "cost": 1200,
+      "time": 80,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Drone Technology"
+    },
+    {
+      "id": "NKR_ImprovedManufacturing",
+      "key": "ImprovedManufacturing",
+      "module": "somtaaw",
+      "ru": "Улучшенное производство",
+      "en": "Improved Manufacturing",
+      "cost": 1200,
+      "time": 75,
+      "requires": [],
+      "effects": [
+        {
+          "target": "kus_mothership",
+          "name": "BUILDSPEED",
+          "value": 1.3,
+          "kind": "modifier"
+        },
+        {
+          "target": "kus_carrier",
+          "name": "BUILDSPEED",
+          "value": 1.3,
+          "kind": "modifier"
+        }
+      ],
+      "note": "Скорость производства Материнского корабля и носителей ×1.3; очередь остаётся последовательной.",
+      "source_en": "Improved Manufacturing"
+    },
+    {
+      "id": "NKR_RepairSystems",
+      "key": "RepairSystems",
+      "module": "somtaaw",
+      "ru": "Системы ремонта",
+      "en": "Repair Systems",
+      "cost": 300,
+      "time": 35,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Repair Systems"
+    },
+    {
+      "id": "NKR_DefenseField",
+      "key": "DefenseField",
+      "module": "sjet",
+      "ru": "Генератор защитного поля",
+      "en": "Defense Field Generator",
+      "cost": 1200,
+      "time": 80,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Defense Field Generator"
+    },
+    {
+      "id": "NKR_GravityGenerator",
+      "key": "GravityGenerator",
+      "module": "sjet",
+      "ru": "Генератор гравитационного поля",
+      "en": "Gravity Generator",
+      "cost": 1000,
+      "time": 70,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Gravity Generator"
+    },
+    {
+      "id": "NKR_CloakGenerator",
+      "key": "CloakGenerator",
+      "module": "sjet",
+      "ru": "Генератор маскировки",
+      "en": "Cloak Generator",
+      "cost": 1000,
+      "time": 75,
+      "requires": [],
+      "effects": [],
+      "note": "",
+      "source_en": "Cloak Generator"
+    },
+    {
+      "id": "NKR_HyperspaceGenerator",
+      "key": "HyperspaceGenerator",
+      "module": "sjet",
+      "ru": "Генератор гиперпространства",
+      "en": "Hyperspace Generator",
+      "cost": 1000,
+      "time": 75,
+      "requires": [],
+      "effects": [
+        {
+          "target": "kus_mothership",
+          "name": "Hyperspace",
+          "value": null,
+          "kind": "ability"
+        },
+        {
+          "target": "kus_carrier",
+          "name": "Hyperspace",
+          "value": null,
+          "kind": "ability"
+        }
+      ],
+      "note": "",
+      "source_en": "Hyperspace Generator"
+    }
+  ],
+  "requirements": {
+    "kus_scout": [
+      "NKR_FighterDrive"
+    ],
+    "kus_interceptor": [
+      "NKR_FighterDrive",
+      "NKR_FighterChassis"
+    ],
+    "kus_attackbomber": [
+      "NKR_FighterDrive",
+      "NKR_FighterChassis",
+      "NKR_PlasmaWeapons"
+    ],
+    "kus_cloakedfighter": [
+      "NKR_FighterDrive",
+      "NKR_FighterChassis",
+      "NKR_CloakGenerator"
+    ],
+    "kus_lightcorvette": [
+      "NKR_CorvetteDrive"
+    ],
+    "kus_heavycorvette": [
+      "NKR_CorvetteDrive",
+      "NKR_CorvetteChassis"
+    ],
+    "kus_multiguncorvette": [
+      "NKR_CorvetteDrive",
+      "NKR_CorvetteChassis",
+      "NKR_FastTrackingTurrets"
+    ],
+    "kus_minelayercorvette": [
+      "NKR_CorvetteDrive",
+      "NKR_CorvetteChassis",
+      "NKR_Minelaying"
+    ],
+    "kus_supportfrigate": [
+      "NKR_FrigateDrive"
+    ],
+    "kus_assaultfrigate": [
+      "NKR_FrigateDrive",
+      "NKR_FrigateChassis",
+      "NKR_PlasmaWeapons"
+    ],
+    "kus_ioncannonfrigate": [
+      "NKR_FrigateDrive",
+      "NKR_FrigateChassis",
+      "NKR_IonCannons"
+    ],
+    "kus_dronefrigate": [
+      "NKR_FrigateDrive",
+      "NKR_FrigateChassis",
+      "NKR_DroneTechnology"
+    ],
+    "nku_barricadefrigate": [
+      "NKR_FrigateDrive",
+      "NKR_FrigateChassis",
+      "NKR_DefenseField"
+    ],
+    "kus_defender": [
+      "NKR_FighterChassis",
+      "NKR_DefenderSubsystems"
+    ],
+    "kus_repaircorvette": [
+      "NKR_CorvetteChassis",
+      "NKR_RepairSystems"
+    ],
+    "kus_salvagecorvette": [
+      "NKR_CorvetteChassis",
+      "NKR_SalvageSystems"
+    ],
+    "kus_carrier": [
+      "NKR_DestroyerDrive"
+    ],
+    "kus_destroyer": [
+      "NKR_DestroyerDrive",
+      "NKR_DestroyerChassis"
+    ],
+    "kus_missiledestroyer": [
+      "NKR_DestroyerDrive",
+      "NKR_DestroyerChassis",
+      "NKR_GuidedMissiles"
+    ],
+    "kus_heavycruiser": [
+      "NKR_AdvancedDestroyerDrive",
+      "NKR_AdvancedDestroyerChassis"
+    ],
+    "kus_resourcecollector": [],
+    "kus_resourcecontroller": [],
+    "kus_probe": [],
+    "kus_proximitysensor": [
+      "NKR_ProximityDetector"
+    ],
+    "kus_sensorarray": [
+      "NKR_SensorArray"
+    ],
+    "kus_gravwellgenerator": [
+      "NKR_GravityGenerator"
+    ],
+    "kus_cloakgenerator": [
+      "NKR_CloakGenerator"
+    ]
+  },
+  "station_rule": {
+    "race": "tai",
+    "requires": "HyperspaceGenerator",
+    "implemented": false,
+    "note": "Станция только Новотаииданам; условие подключается вместе с их будущим классовым деревом."
+  },
+  "decisions": [
+    "Минный корвет требует Минные системы вместо FastTrackingTurrets",
+    "Общие усовершенствования дают бонус классу",
+    "Индивидуальная скорость многопушечного, не тяжёлого корвета: последнее уточнение пользователя",
+    "Плазменные орудия открывают бомбардировщик и штурмовой фрегат; улучшенные бомбы отдельно открывают специальный боеприпас против подсистем обоим кораблям",
+    "Броневые EN Chassis из пользовательского черновика сохранены в source_en, в интерфейсе Armor"
+  ],
+  "tuning_status": "first-pass proposal; no native-engine validation",
+  "paths": {
+    "kus_scout": {
+      "technologies": [
+        "NKR_FighterDrive"
+      ],
+      "modules": [
+        "manaan"
+      ],
+      "research_cost": 100,
+      "module_cost": 350,
+      "cost": 450,
+      "base_research_time": 20,
+      "module_time": 30
+    },
+    "kus_interceptor": {
+      "technologies": [
+        "NKR_FighterChassis",
+        "NKR_FighterDrive"
+      ],
+      "modules": [
+        "naabal",
+        "manaan"
+      ],
+      "research_cost": 250,
+      "module_cost": 700,
+      "cost": 950,
+      "base_research_time": 45,
+      "module_time": 60
+    },
+    "kus_attackbomber": {
+      "technologies": [
+        "NKR_FighterChassis",
+        "NKR_FighterDrive",
+        "NKR_PlasmaWeapons"
+      ],
+      "modules": [
+        "naabal",
+        "manaan",
+        "soban"
+      ],
+      "research_cost": 500,
+      "module_cost": 1050,
+      "cost": 1550,
+      "base_research_time": 70,
+      "module_time": 90
+    },
+    "kus_cloakedfighter": {
+      "technologies": [
+        "NKR_FighterChassis",
+        "NKR_FighterDrive",
+        "NKR_CloakGenerator"
+      ],
+      "modules": [
+        "naabal",
+        "manaan",
+        "sjet"
+      ],
+      "research_cost": 1250,
+      "module_cost": 1200,
+      "cost": 2450,
+      "base_research_time": 120,
+      "module_time": 100
+    },
+    "kus_lightcorvette": {
+      "technologies": [
+        "NKR_CorvetteDrive"
+      ],
+      "modules": [
+        "manaan"
+      ],
+      "research_cost": 500,
+      "module_cost": 350,
+      "cost": 850,
+      "base_research_time": 50,
+      "module_time": 30
+    },
+    "kus_heavycorvette": {
+      "technologies": [
+        "NKR_CorvetteChassis",
+        "NKR_CorvetteDrive"
+      ],
+      "modules": [
+        "naabal",
+        "manaan"
+      ],
+      "research_cost": 1000,
+      "module_cost": 700,
+      "cost": 1700,
+      "base_research_time": 100,
+      "module_time": 60
+    },
+    "kus_multiguncorvette": {
+      "technologies": [
+        "NKR_CorvetteChassis",
+        "NKR_CorvetteDrive",
+        "NKR_FastTrackingTurrets"
+      ],
+      "modules": [
+        "naabal",
+        "manaan",
+        "somtaaw"
+      ],
+      "research_cost": 1500,
+      "module_cost": 1050,
+      "cost": 2550,
+      "base_research_time": 145,
+      "module_time": 90
+    },
+    "kus_minelayercorvette": {
+      "technologies": [
+        "NKR_CorvetteChassis",
+        "NKR_CorvetteDrive",
+        "NKR_Minelaying"
+      ],
+      "modules": [
+        "naabal",
+        "manaan",
+        "soban"
+      ],
+      "research_cost": 1750,
+      "module_cost": 1050,
+      "cost": 2800,
+      "base_research_time": 150,
+      "module_time": 90
+    },
+    "kus_supportfrigate": {
+      "technologies": [
+        "NKR_FrigateDrive"
+      ],
+      "modules": [
+        "manaan"
+      ],
+      "research_cost": 1000,
+      "module_cost": 350,
+      "cost": 1350,
+      "base_research_time": 70,
+      "module_time": 30
+    },
+    "kus_assaultfrigate": {
+      "technologies": [
+        "NKR_FrigateChassis",
+        "NKR_FrigateDrive",
+        "NKR_PlasmaWeapons"
+      ],
+      "modules": [
+        "naabal",
+        "manaan",
+        "soban"
+      ],
+      "research_cost": 2050,
+      "module_cost": 1050,
+      "cost": 3100,
+      "base_research_time": 160,
+      "module_time": 90
+    },
+    "kus_ioncannonfrigate": {
+      "technologies": [
+        "NKR_FrigateChassis",
+        "NKR_FrigateDrive",
+        "NKR_IonCannons"
+      ],
+      "modules": [
+        "naabal",
+        "manaan",
+        "soban"
+      ],
+      "research_cost": 2800,
+      "module_cost": 1050,
+      "cost": 3850,
+      "base_research_time": 205,
+      "module_time": 90
+    },
+    "kus_dronefrigate": {
+      "technologies": [
+        "NKR_FrigateChassis",
+        "NKR_FrigateDrive",
+        "NKR_DroneTechnology"
+      ],
+      "modules": [
+        "naabal",
+        "manaan",
+        "somtaaw"
+      ],
+      "research_cost": 3000,
+      "module_cost": 1050,
+      "cost": 4050,
+      "base_research_time": 215,
+      "module_time": 90
+    },
+    "nku_barricadefrigate": {
+      "technologies": [
+        "NKR_FrigateChassis",
+        "NKR_FrigateDrive",
+        "NKR_DefenseField"
+      ],
+      "modules": [
+        "naabal",
+        "manaan",
+        "sjet"
+      ],
+      "research_cost": 3000,
+      "module_cost": 1200,
+      "cost": 4200,
+      "base_research_time": 215,
+      "module_time": 100
+    },
+    "kus_defender": {
+      "technologies": [
+        "NKR_FighterChassis",
+        "NKR_DefenderSubsystems"
+      ],
+      "modules": [
+        "naabal",
+        "somtaaw"
+      ],
+      "research_cost": 550,
+      "module_cost": 700,
+      "cost": 1250,
+      "base_research_time": 65,
+      "module_time": 60
+    },
+    "kus_repaircorvette": {
+      "technologies": [
+        "NKR_CorvetteChassis",
+        "NKR_RepairSystems"
+      ],
+      "modules": [
+        "naabal",
+        "somtaaw"
+      ],
+      "research_cost": 800,
+      "module_cost": 700,
+      "cost": 1500,
+      "base_research_time": 85,
+      "module_time": 60
+    },
+    "kus_salvagecorvette": {
+      "technologies": [
+        "NKR_CorvetteChassis",
+        "NKR_SalvageSystems"
+      ],
+      "modules": [
+        "naabal",
+        "soban"
+      ],
+      "research_cost": 1000,
+      "module_cost": 700,
+      "cost": 1700,
+      "base_research_time": 90,
+      "module_time": 60
+    },
+    "kus_carrier": {
+      "technologies": [
+        "NKR_DestroyerDrive"
+      ],
+      "modules": [
+        "manaan"
+      ],
+      "research_cost": 1600,
+      "module_cost": 350,
+      "cost": 1950,
+      "base_research_time": 90,
+      "module_time": 30
+    },
+    "kus_destroyer": {
+      "technologies": [
+        "NKR_DestroyerChassis",
+        "NKR_DestroyerDrive"
+      ],
+      "modules": [
+        "naabal",
+        "manaan"
+      ],
+      "research_cost": 3200,
+      "module_cost": 700,
+      "cost": 3900,
+      "base_research_time": 180,
+      "module_time": 60
+    },
+    "kus_missiledestroyer": {
+      "technologies": [
+        "NKR_DestroyerChassis",
+        "NKR_DestroyerDrive",
+        "NKR_GuidedMissiles"
+      ],
+      "modules": [
+        "naabal",
+        "manaan",
+        "soban"
+      ],
+      "research_cost": 3950,
+      "module_cost": 1050,
+      "cost": 5000,
+      "base_research_time": 240,
+      "module_time": 90
+    },
+    "kus_heavycruiser": {
+      "technologies": [
+        "NKR_DestroyerChassis",
+        "NKR_AdvancedDestroyerChassis",
+        "NKR_DestroyerDrive",
+        "NKR_AdvancedDestroyerDrive"
+      ],
+      "modules": [
+        "naabal",
+        "manaan"
+      ],
+      "research_cost": 5400,
+      "module_cost": 700,
+      "cost": 6100,
+      "base_research_time": 345,
+      "module_time": 60
+    },
+    "kus_resourcecollector": {
+      "technologies": [],
+      "modules": [],
+      "research_cost": 0,
+      "module_cost": 0,
+      "cost": 0,
+      "base_research_time": 0,
+      "module_time": 0
+    },
+    "kus_resourcecontroller": {
+      "technologies": [],
+      "modules": [],
+      "research_cost": 0,
+      "module_cost": 0,
+      "cost": 0,
+      "base_research_time": 0,
+      "module_time": 0
+    },
+    "kus_probe": {
+      "technologies": [],
+      "modules": [],
+      "research_cost": 0,
+      "module_cost": 0,
+      "cost": 0,
+      "base_research_time": 0,
+      "module_time": 0
+    },
+    "kus_proximitysensor": {
+      "technologies": [
+        "NKR_ProximityDetector"
+      ],
+      "modules": [
+        "paktu"
+      ],
+      "research_cost": 500,
+      "module_cost": 300,
+      "cost": 800,
+      "base_research_time": 40,
+      "module_time": 25
+    },
+    "kus_sensorarray": {
+      "technologies": [
+        "NKR_SensorArray"
+      ],
+      "modules": [
+        "paktu"
+      ],
+      "research_cost": 600,
+      "module_cost": 300,
+      "cost": 900,
+      "base_research_time": 50,
+      "module_time": 25
+    },
+    "kus_gravwellgenerator": {
+      "technologies": [
+        "NKR_GravityGenerator"
+      ],
+      "modules": [
+        "sjet"
+      ],
+      "research_cost": 1000,
+      "module_cost": 500,
+      "cost": 1500,
+      "base_research_time": 70,
+      "module_time": 40
+    },
+    "kus_cloakgenerator": {
+      "technologies": [
+        "NKR_CloakGenerator"
+      ],
+      "modules": [
+        "sjet"
+      ],
+      "research_cost": 1000,
+      "module_cost": 500,
+      "cost": 1500,
+      "base_research_time": 75,
+      "module_time": 40
+    }
+  },
+  "runtime_research_entries": 128,
+  "normal_research_entries": 57,
+  "native_validation_pending": [
+    "Six independent sections and native docking/counting",
+    "Automatic zero-time effects, modifier replacement vs multiplication",
+    "Sensor hardpoint attachment and hyperspace sensing",
+    "Research UI grouping and ordinary production gates",
+    "AI build/research behavior not tuned"
+  ]
+}

@@ -1,0 +1,3 @@
+[submodule "dependencies/mp-patch"]
+	path = dependencies/mp-patch
+	url = https://github.com/DmitryPrigodich/hwrm-mp-patch.git

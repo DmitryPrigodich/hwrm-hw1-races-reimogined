@@ -1,0 +1,1 @@
+PersistantData={["Squadrons"]={[1]={["type"]="Tai_MotherShip",["name"]="",["subsystems"]={},["shiphold"]={},["size"]=1},[2]={["number"]=1,["type"]="Tai_Carrier",["name"]="",["subsystems"]={},["shiphold"]={},["size"]=1}},["StrikeGroups"]={},["Research"]={}}

@@ -1,0 +1,201 @@
+{
+  "Kus_Defender": [
+    "NKR_FighterChassis",
+    "NKR_DefenderSubsystems"
+  ],
+  "Kus_AssaultFrigate": [
+    "NKR_FrigateChassis",
+    "NKR_FrigateDrive",
+    "NKR_PlasmaWeapons"
+  ],
+  "kus_heavycorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_CorvetteDrive"
+  ],
+  "kus_proximitysensor": [
+    "NKR_ProximityDetector"
+  ],
+  "Kus_CloakGenerator": [
+    "NKR_CloakGenerator"
+  ],
+  "kus_cloakgenerator": [
+    "NKR_CloakGenerator"
+  ],
+  "Kus_GravWellGenerator": [
+    "NKR_GravityGenerator"
+  ],
+  "kus_interceptor": [
+    "NKR_FighterChassis",
+    "NKR_FighterDrive"
+  ],
+  "kus_missiledestroyer": [
+    "NKR_DestroyerChassis",
+    "NKR_DestroyerDrive",
+    "NKR_GuidedMissiles"
+  ],
+  "nku_barricadefrigate": [
+    "NKR_FrigateChassis",
+    "NKR_FrigateDrive",
+    "NKR_DefenseField"
+  ],
+  "kus_heavycruiser": [
+    "NKR_DestroyerChassis",
+    "NKR_AdvancedDestroyerChassis",
+    "NKR_DestroyerDrive",
+    "NKR_AdvancedDestroyerDrive"
+  ],
+  "Kus_Interceptor": [
+    "NKR_FighterChassis",
+    "NKR_FighterDrive"
+  ],
+  "kus_attackbomber": [
+    "NKR_FighterChassis",
+    "NKR_FighterDrive",
+    "NKR_PlasmaWeapons"
+  ],
+  "kus_supportfrigate": [
+    "NKR_FrigateDrive"
+  ],
+  "kus_defender": [
+    "NKR_FighterChassis",
+    "NKR_DefenderSubsystems"
+  ],
+  "kus_cloakedfighter": [
+    "NKR_FighterChassis",
+    "NKR_FighterDrive",
+    "NKR_CloakGenerator"
+  ],
+  "Kus_MinelayerCorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_CorvetteDrive",
+    "NKR_Minelaying"
+  ],
+  "Kus_SensorArray": [
+    "NKR_SensorArray"
+  ],
+  "Kus_ProximitySensor": [
+    "NKR_ProximityDetector"
+  ],
+  "Kus_HeavyCruiser": [
+    "NKR_DestroyerChassis",
+    "NKR_AdvancedDestroyerChassis",
+    "NKR_DestroyerDrive",
+    "NKR_AdvancedDestroyerDrive"
+  ],
+  "kus_carrier": [
+    "NKR_DestroyerDrive"
+  ],
+  "Kus_ResourceCollector": [],
+  "Kus_Probe": [],
+  "Kus_Destroyer": [
+    "NKR_DestroyerChassis",
+    "NKR_DestroyerDrive"
+  ],
+  "kus_salvagecorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_SalvageSystems"
+  ],
+  "Kus_SupportFrigate": [
+    "NKR_FrigateDrive"
+  ],
+  "kus_scout": [
+    "NKR_FighterDrive"
+  ],
+  "Kus_MissileDestroyer": [
+    "NKR_DestroyerChassis",
+    "NKR_DestroyerDrive",
+    "NKR_GuidedMissiles"
+  ],
+  "kus_gravwellgenerator": [
+    "NKR_GravityGenerator"
+  ],
+  "Kus_Carrier": [
+    "NKR_DestroyerDrive"
+  ],
+  "Kus_MultiGunCorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_CorvetteDrive",
+    "NKR_FastTrackingTurrets"
+  ],
+  "Kus_IonCannonFrigate": [
+    "NKR_FrigateChassis",
+    "NKR_FrigateDrive",
+    "NKR_IonCannons"
+  ],
+  "kus_resourcecontroller": [],
+  "Kus_DroneFrigate": [
+    "NKR_FrigateChassis",
+    "NKR_FrigateDrive",
+    "NKR_DroneTechnology"
+  ],
+  "Kus_HeavyCorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_CorvetteDrive"
+  ],
+  "kus_probe": [],
+  "kus_multiguncorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_CorvetteDrive",
+    "NKR_FastTrackingTurrets"
+  ],
+  "Kus_LightCorvette": [
+    "NKR_CorvetteDrive"
+  ],
+  "Kus_SalvageCorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_SalvageSystems"
+  ],
+  "Kus_ResourceController": [],
+  "Kus_CloakedFighter": [
+    "NKR_FighterChassis",
+    "NKR_FighterDrive",
+    "NKR_CloakGenerator"
+  ],
+  "kus_assaultfrigate": [
+    "NKR_FrigateChassis",
+    "NKR_FrigateDrive",
+    "NKR_PlasmaWeapons"
+  ],
+  "kus_dronefrigate": [
+    "NKR_FrigateChassis",
+    "NKR_FrigateDrive",
+    "NKR_DroneTechnology"
+  ],
+  "kus_sensorarray": [
+    "NKR_SensorArray"
+  ],
+  "kus_destroyer": [
+    "NKR_DestroyerChassis",
+    "NKR_DestroyerDrive"
+  ],
+  "kus_resourcecollector": [],
+  "Kus_RepairCorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_RepairSystems"
+  ],
+  "kus_repaircorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_RepairSystems"
+  ],
+  "Kus_Scout": [
+    "NKR_FighterDrive"
+  ],
+  "kus_ioncannonfrigate": [
+    "NKR_FrigateChassis",
+    "NKR_FrigateDrive",
+    "NKR_IonCannons"
+  ],
+  "Kus_AttackBomber": [
+    "NKR_FighterChassis",
+    "NKR_FighterDrive",
+    "NKR_PlasmaWeapons"
+  ],
+  "kus_minelayercorvette": [
+    "NKR_CorvetteChassis",
+    "NKR_CorvetteDrive",
+    "NKR_Minelaying"
+  ],
+  "kus_lightcorvette": [
+    "NKR_CorvetteDrive"
+  ]
+}

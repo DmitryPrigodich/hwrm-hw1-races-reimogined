@@ -1,0 +1,34 @@
+{
+  "leveldata/campaign/vrcfleetpreview.dds": {
+    "sha256": "6e1cf7d8d154bc3fee4cbb4e79a7d8d03f0621f1a3982dbf6ff1492ba3dc25a9",
+    "cache_relative_path": "hwmp-patch-2.4/vr-sync-source/leveldata/campaign/vrcfleetpreview.dds"
+  },
+  "leveldata/campaign/vrcfleetpreview/preview_kushan/preview_kushan.dds": {
+    "sha256": "6e1cf7d8d154bc3fee4cbb4e79a7d8d03f0621f1a3982dbf6ff1492ba3dc25a9",
+    "cache_relative_path": "hwmp-patch-2.4/vr-sync-source/leveldata/campaign/vrcfleetpreview/preview_kushan/preview_kushan.dds"
+  },
+  "leveldata/campaign/vrcfleetpreview/preview_taiidan/preview_taiidan.dds": {
+    "sha256": "6e1cf7d8d154bc3fee4cbb4e79a7d8d03f0621f1a3982dbf6ff1492ba3dc25a9",
+    "cache_relative_path": "hwmp-patch-2.4/vr-sync-source/leveldata/campaign/vrcfleetpreview/preview_taiidan/preview_taiidan.dds"
+  },
+  "leveldata/campaign/vrcfleetpreview/research_kushan/research_kushan.dds": {
+    "sha256": "6e1cf7d8d154bc3fee4cbb4e79a7d8d03f0621f1a3982dbf6ff1492ba3dc25a9",
+    "cache_relative_path": "hwmp-patch-2.4/vr-sync-source/leveldata/campaign/vrcfleetpreview/research_kushan/research_kushan.dds"
+  },
+  "ship/kus_sensorarray/kus_sensorarray.hod": {
+    "sha256": "b3e56374ede5de9932267abe77b920337d77f3a500cb04acfa9bd781f813ed41",
+    "cache_relative_path": "hwmp-patch-2.4/vr-sync-source/ship/kus_sensorarray/kus_sensorarray.hod"
+  },
+  "ship/nku_barricadefrigate/nku_barricadefrigate.hod": {
+    "sha256": "9576285e1e7350aa2569d38bd4459d5553a47ca0575ae529f4d544cd97fb44a7",
+    "cache_relative_path": "hwmp-patch-2.4/vr-sync-source/ship/nku_barricadefrigate/nku_barricadefrigate.hod"
+  },
+  "ship/tai_researchstation/tai_researchstation.hod": {
+    "sha256": "3e089b340a747936adefa42b8b1cd3b41a6080649a890b42717734c83c1ad797",
+    "cache_relative_path": "hwmp-patch-2.4/vr-sync-source/ship/tai_researchstation/tai_researchstation.hod"
+  },
+  "subsystem/nkr_hyperspacesensor/nkr_hyperspacesensor.hod": {
+    "sha256": "822df89602ba365392e1c97dbd79a0b33c69be856558752719f108587f3fa1a1",
+    "cache_relative_path": "hwmp-patch-2.4/vr-sync-source/subsystem/nkr_hyperspacesensor/nkr_hyperspacesensor.hod"
+  }
+}

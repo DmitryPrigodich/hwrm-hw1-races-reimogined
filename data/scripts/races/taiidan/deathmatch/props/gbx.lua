@@ -1,0 +1,4 @@
+Number_Properties_Priority=20
+Number_Properties={dm_challenge_research_baseline=0}
+String_Properties_Priority=20
+String_Properties={dm_build_restrict="tai_researchship,tai_researchship_1,tai_researchship_2,tai_researchship_3,tai_researchship_4,tai_researchship_5",dm_research_restrict="",dm_allresearch_build_restrict="tai_researchship,tai_researchship_1,tai_researchship_2,tai_researchship_3,tai_researchship_4,tai_researchship_5",dm_allresearch_research_restrict=""}

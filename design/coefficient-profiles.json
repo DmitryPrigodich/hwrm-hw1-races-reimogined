@@ -1,0 +1,33 @@
+{
+  "class_mapping": {
+    "Fighter_hw1": "Fighter",
+    "Corvette_hw1": "Corvette",
+    "Unarmoured_hw1": "Unarmoured",
+    "LightArmour_hw1": "LightArmour"
+  },
+  "weapon_profiles": {
+    "kus_scout": "vgr_flechettecannon",
+    "tai_scout": "vgr_flechettecannon",
+    "kus_interceptor": "hgn_kineticautogun",
+    "tai_interceptor": "hgn_kineticautogun",
+    "kus_cloakedfighter": "hgn_kineticautogun",
+    "kus_attackbomber": {
+      "nkr_attackbomber_plasma_normal": "hgn_bomblauncher",
+      "nkr_attackbomber_plasma_ship": "hgn_antishipbomblauncher",
+      "nkr_attackbomber_plasma_subsystem": "hgn_antisubsystembomblauncher"
+    },
+    "tai_attackbomber": "hgn_bomblauncher"
+  },
+  "profile_calls": [
+    "setPenetration",
+    "setAccuracy"
+  ],
+  "preserve": [
+    "Own roles, ship roster and HW1 special abilities",
+    "HP, raw damage, speed, range, cadence, weapon mount count",
+    "Batch sizes, formations, prices, build times, supply and build tabs",
+    "Accepted destroyer balance and HeavyArmour",
+    "Own research, construction, story, voices, movies and localization"
+  ],
+  "unassigned_profiles": "Corvettes, frigates and special roles retain their own weapons; HW2 target/armour families apply. No undocumented donor selection."
+}

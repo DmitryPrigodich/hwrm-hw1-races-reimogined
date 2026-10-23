@@ -1,0 +1,626 @@
+{
+  "ship/kus_assaultfrigate/kus_assaultfrigate.ship": {
+    "buildCost": 700,
+    "buildTime": 50,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 16000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "Frigate",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/kus_attackbomber/kus_attackbomber.ship": {
+    "buildCost": 550,
+    "buildTime": 40,
+    "buildBatch": 5,
+    "SquadronSize": 1,
+    "batchFormation": "NFP_Batch_Claw5",
+    "maxhealth": 30,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_carrier/kus_carrier.ship": {
+    "buildCost": 4000,
+    "buildTime": 100,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 80000,
+    "ArmourFamily": "SuperUtilityArmour",
+    "AttackFamily": "BigCapitalShip",
+    "AvoidanceFamily": "SuperCap"
+  },
+  "ship/kus_cloakedfighter/kus_cloakedfighter.ship": {
+    "buildCost": 700,
+    "buildTime": 45,
+    "buildBatch": 5,
+    "SquadronSize": 1,
+    "batchFormation": "Batch_delta",
+    "maxhealth": 30,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_cloakgenerator/kus_cloakgenerator.ship": {
+    "buildCost": 500,
+    "buildTime": 45,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 17000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/kus_defender/kus_defender.ship": {
+    "buildCost": 450,
+    "buildTime": 35,
+    "buildBatch": 4,
+    "SquadronSize": 1,
+    "batchFormation": "SG_2x2Wall",
+    "maxhealth": 60,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_destroyer/kus_destroyer.ship": {
+    "buildCost": 1350,
+    "buildTime": 110,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "HeavyArmour",
+    "AttackFamily": "SmallCapitalShip",
+    "AvoidanceFamily": "Capital"
+  },
+  "ship/kus_dronefrigate/kus_dronefrigate.ship": {
+    "buildCost": 1100,
+    "buildTime": 55,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 16000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "Frigate",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/kus_gravwellgenerator/kus_gravwellgenerator.ship": {
+    "buildCost": 800,
+    "buildTime": 50,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 19000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/kus_heavycorvette/kus_heavycorvette.ship": {
+    "buildCost": 650,
+    "buildTime": 45,
+    "buildBatch": 3,
+    "SquadronSize": 1,
+    "batchFormation": "Batch_delta",
+    "maxhealth": 400,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_heavycruiser/kus_heavycruiser.ship": {
+    "buildCost": 2800,
+    "buildTime": 165,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 90000,
+    "ArmourFamily": "HeavyArmour",
+    "AttackFamily": "SmallCapitalShip",
+    "AvoidanceFamily": "Capital"
+  },
+  "ship/kus_interceptor/kus_interceptor.ship": {
+    "buildCost": 550,
+    "buildTime": 35,
+    "buildBatch": 5,
+    "SquadronSize": 1,
+    "batchFormation": "NFP_Batch_X5",
+    "maxhealth": 40,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_ioncannonfrigate/kus_ioncannonfrigate.ship": {
+    "buildCost": 700,
+    "buildTime": 45,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 16000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "Frigate",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/kus_lightcorvette/kus_lightcorvette.ship": {
+    "buildCost": 600,
+    "buildTime": 45,
+    "buildBatch": 4,
+    "SquadronSize": 1,
+    "batchFormation": "NFP_Batch_Diamond4",
+    "maxhealth": 300,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_minelayercorvette/kus_minelayercorvette.ship": {
+    "buildCost": 800,
+    "buildTime": 45,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 400,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_missiledestroyer/kus_missiledestroyer.ship": {
+    "buildCost": 1500,
+    "buildTime": 120,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "HeavyArmour",
+    "AttackFamily": "SmallCapitalShip",
+    "AvoidanceFamily": "Capital"
+  },
+  "ship/kus_mothership/kus_mothership.ship": {
+    "buildCost": 8000,
+    "buildTime": 300,
+    "maxhealth": 600000,
+    "ArmourFamily": "HeavyArmour",
+    "AttackFamily": "Mothership",
+    "AvoidanceFamily": "MotherShip"
+  },
+  "ship/kus_multiguncorvette/kus_multiguncorvette.ship": {
+    "buildCost": 650,
+    "buildTime": 45,
+    "buildBatch": 3,
+    "SquadronSize": 1,
+    "batchFormation": "Batch_delta",
+    "maxhealth": 400,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_probe/kus_probe.ship": {
+    "buildCost": 150,
+    "buildTime": 15,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 400,
+    "ArmourFamily": "ProbeArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/kus_proximitysensor/kus_proximitysensor.ship": {
+    "buildCost": 250,
+    "buildTime": 20,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 400,
+    "ArmourFamily": "ProbeArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/kus_repaircorvette/kus_repaircorvette.ship": {
+    "buildCost": 250,
+    "buildTime": 25,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 1200,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_researchship/kus_researchship.ship": {
+    "buildCost": 350,
+    "buildTime": 30,
+    "buildBatch": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "ResourceLarge",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/kus_researchship_1/kus_researchship_1.ship": {
+    "buildCost": 350,
+    "buildTime": 30,
+    "buildBatch": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "ResArmour",
+    "AttackFamily": "Unattackable",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/kus_researchship_2/kus_researchship_2.ship": {
+    "buildCost": 350,
+    "buildTime": 30,
+    "buildBatch": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "ResArmour",
+    "AttackFamily": "Unattackable",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/kus_researchship_3/kus_researchship_3.ship": {
+    "buildCost": 500,
+    "buildTime": 40,
+    "buildBatch": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "ResArmour",
+    "AttackFamily": "Unattackable",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/kus_researchship_4/kus_researchship_4.ship": {
+    "buildCost": 350,
+    "buildTime": 30,
+    "buildBatch": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "ResArmour",
+    "AttackFamily": "Unattackable",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/kus_researchship_5/kus_researchship_5.ship": {
+    "buildCost": 300,
+    "buildTime": 25,
+    "buildBatch": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "ResArmour",
+    "AttackFamily": "Unattackable",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/kus_resourcecollector/kus_resourcecollector.ship": {
+    "buildCost": 400,
+    "buildTime": 30,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 2000,
+    "ArmourFamily": "ResArmour",
+    "AttackFamily": "Resource",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/kus_resourcecontroller/kus_resourcecontroller.ship": {
+    "buildCost": 800,
+    "buildTime": 45,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 18000,
+    "ArmourFamily": "SuperUtilityArmour",
+    "AttackFamily": "ResourceLarge",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/kus_salvagecorvette/kus_salvagecorvette.ship": {
+    "buildCost": 250,
+    "buildTime": 25,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 1200,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_scout/kus_scout.ship": {
+    "buildCost": 450,
+    "buildTime": 30,
+    "buildBatch": 5,
+    "SquadronSize": 1,
+    "batchFormation": "Batch_delta",
+    "maxhealth": 20,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/kus_sensorarray/kus_sensorarray.ship": {
+    "buildCost": 700,
+    "buildTime": 50,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 15000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Capital"
+  },
+  "ship/kus_supportfrigate/kus_supportfrigate.ship": {
+    "buildCost": 650,
+    "buildTime": 50,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 16000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "Frigate",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/nku_barricadefrigate/nku_barricadefrigate.ship": {
+    "buildCost": 1100,
+    "buildTime": 55,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 16000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "Frigate",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/tai_assaultfrigate/tai_assaultfrigate.ship": {
+    "buildCost": 700,
+    "buildTime": 50,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 16000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "Frigate",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/tai_attackbomber/tai_attackbomber.ship": {
+    "buildCost": 550,
+    "buildTime": 40,
+    "buildBatch": 5,
+    "SquadronSize": 1,
+    "batchFormation": "NFP_Batch_Claw5",
+    "maxhealth": 30,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_carrier/tai_carrier.ship": {
+    "buildCost": 4000,
+    "buildTime": 100,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 80000,
+    "ArmourFamily": "SuperUtilityArmour",
+    "AttackFamily": "BigCapitalShip",
+    "AvoidanceFamily": "SuperCap"
+  },
+  "ship/tai_cloakgenerator/tai_cloakgenerator.ship": {
+    "buildCost": 500,
+    "buildTime": 45,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 17000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/tai_defender/tai_defender.ship": {
+    "buildCost": 450,
+    "buildTime": 35,
+    "buildBatch": 4,
+    "SquadronSize": 1,
+    "batchFormation": "SG_2x2Wall",
+    "maxhealth": 60,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_defensefighter/tai_defensefighter.ship": {
+    "buildCost": 700,
+    "buildTime": 45,
+    "buildBatch": 3,
+    "SquadronSize": 1,
+    "batchFormation": "NFP_Batch_X5",
+    "maxhealth": 30,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_destroyer/tai_destroyer.ship": {
+    "buildCost": 1350,
+    "buildTime": 110,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "HeavyArmour",
+    "AttackFamily": "SmallCapitalShip",
+    "AvoidanceFamily": "Capital"
+  },
+  "ship/tai_fieldfrigate/tai_fieldfrigate.ship": {
+    "buildCost": 1100,
+    "buildTime": 55,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 16000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "Frigate",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/tai_gravwellgenerator/tai_gravwellgenerator.ship": {
+    "buildCost": 800,
+    "buildTime": 50,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 19000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/tai_heavycorvette/tai_heavycorvette.ship": {
+    "buildCost": 650,
+    "buildTime": 45,
+    "buildBatch": 3,
+    "SquadronSize": 1,
+    "batchFormation": "Batch_delta",
+    "maxhealth": 400,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_heavycruiser/tai_heavycruiser.ship": {
+    "buildCost": 2800,
+    "buildTime": 165,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 90000,
+    "ArmourFamily": "HeavyArmour",
+    "AttackFamily": "SmallCapitalShip",
+    "AvoidanceFamily": "Capital"
+  },
+  "ship/tai_interceptor/tai_interceptor.ship": {
+    "buildCost": 550,
+    "buildTime": 35,
+    "buildBatch": 5,
+    "SquadronSize": 1,
+    "batchFormation": "NFP_Batch_X5",
+    "maxhealth": 40,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_ioncannonfrigate/tai_ioncannonfrigate.ship": {
+    "buildCost": 700,
+    "buildTime": 45,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 16000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "Frigate",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/tai_lightcorvette/tai_lightcorvette.ship": {
+    "buildCost": 600,
+    "buildTime": 45,
+    "buildBatch": 4,
+    "SquadronSize": 1,
+    "batchFormation": "NFP_Batch_Diamond4",
+    "maxhealth": 300,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_minelayercorvette/tai_minelayercorvette.ship": {
+    "buildCost": 800,
+    "buildTime": 45,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 400,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_missiledestroyer/tai_missiledestroyer.ship": {
+    "buildCost": 1500,
+    "buildTime": 120,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 45000,
+    "ArmourFamily": "HeavyArmour",
+    "AttackFamily": "SmallCapitalShip",
+    "AvoidanceFamily": "Capital"
+  },
+  "ship/tai_mothership/tai_mothership.ship": {
+    "buildCost": 8000,
+    "buildTime": 300,
+    "maxhealth": 600000,
+    "ArmourFamily": "HeavyArmour",
+    "AttackFamily": "Mothership",
+    "AvoidanceFamily": "MotherShip"
+  },
+  "ship/tai_multiguncorvette/tai_multiguncorvette.ship": {
+    "buildCost": 650,
+    "buildTime": 45,
+    "buildBatch": 3,
+    "SquadronSize": 1,
+    "batchFormation": "Batch_delta",
+    "maxhealth": 400,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_probe/tai_probe.ship": {
+    "buildCost": 150,
+    "buildTime": 15,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 400,
+    "ArmourFamily": "ProbeArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/tai_proximitysensor/tai_proximitysensor.ship": {
+    "buildCost": 250,
+    "buildTime": 20,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 400,
+    "ArmourFamily": "ProbeArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/tai_repaircorvette/tai_repaircorvette.ship": {
+    "buildCost": 250,
+    "buildTime": 25,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 1200,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_researchstation/tai_researchstation.ship": {
+    "buildCost": 4000,
+    "buildTime": 100,
+    "maxhealth": 220000,
+    "ArmourFamily": "HeavyArmour",
+    "AttackFamily": "Utility",
+    "AvoidanceFamily": "Capital"
+  },
+  "ship/tai_resourcecollector/tai_resourcecollector.ship": {
+    "buildCost": 400,
+    "buildTime": 30,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 2000,
+    "ArmourFamily": "ResArmour",
+    "AttackFamily": "Resource",
+    "AvoidanceFamily": "Utility"
+  },
+  "ship/tai_resourcecontroller/tai_resourcecontroller.ship": {
+    "buildCost": 800,
+    "buildTime": 45,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 18000,
+    "ArmourFamily": "SuperUtilityArmour",
+    "AttackFamily": "ResourceLarge",
+    "AvoidanceFamily": "Frigate"
+  },
+  "ship/tai_salvagecorvette/tai_salvagecorvette.ship": {
+    "buildCost": 250,
+    "buildTime": 25,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 1200,
+    "ArmourFamily": "LightArmour",
+    "AttackFamily": "Corvette",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_scout/tai_scout.ship": {
+    "buildCost": 450,
+    "buildTime": 30,
+    "buildBatch": 5,
+    "SquadronSize": 1,
+    "batchFormation": "Batch_delta",
+    "maxhealth": 20,
+    "ArmourFamily": "Unarmoured",
+    "AttackFamily": "Fighter",
+    "AvoidanceFamily": "Strikecraft"
+  },
+  "ship/tai_sensorarray/tai_sensorarray.ship": {
+    "buildCost": 700,
+    "buildTime": 50,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 15000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "NonCombat",
+    "AvoidanceFamily": "Capital"
+  },
+  "ship/tai_supportfrigate/tai_supportfrigate.ship": {
+    "buildCost": 650,
+    "buildTime": 50,
+    "buildBatch": 1,
+    "SquadronSize": 1,
+    "maxhealth": 16000,
+    "ArmourFamily": "MediumArmour",
+    "AttackFamily": "Frigate",
+    "AvoidanceFamily": "Frigate"
+  }
+}
